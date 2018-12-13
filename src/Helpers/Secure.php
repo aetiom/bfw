@@ -184,11 +184,6 @@ class Secure
         
         if (!$inline) {
             $data = trim($array[$key], ' \0\x0B');
-            //$data = trim($array[$key]);
-            //$data = $array[$key];
-            
-            echo('not inline');
-            var_dump($data);
         } else {
             $data = trim($array[$key]);
         }
